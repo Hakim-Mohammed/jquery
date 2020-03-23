@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css">
+        <title>Le jQuery</title>
+
+    </head>
+    <body>
+        <h1>Découverte de jQuery</h1>
+        <label for="prenom">entrez votre prenom: </label>
+        <input type="text" id="prenom" name="prenom">
+
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        
+        <!-- <script src="js/jquery.js"></script> -->
+        <script>
+            $(document).ready(function(){
+                //notre code jQuery
+                $("#prenom").keydown(function(){
+                    $(this).css("background-color","#69C"); 
+                });
+                $("#prenom").keyup(function(){
+                    $(this).css("background-color","#C72");
+                });
+
+            });
+        </script>
+    </body>
+</html>   
