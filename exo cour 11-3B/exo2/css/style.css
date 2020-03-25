@@ -1,0 +1,29 @@
+/* .btn {
+    background-color: cyan;
+    color: black;
+} */
+
+.premier {
+    height: 100px;
+    width: 350px;
+    background-color: red;
+    color: white;
+}
+
+.deuxieme {
+    height: 100px;
+    width: 350px;
+    background-color: green;
+    color: white;
+}
+
+.divNonAnime {
+    height: 100px;
+    width: 350px;
+    background-color: blue;
+    color: white;
+}
+
+.main {
+    background-color:gray;
+}
